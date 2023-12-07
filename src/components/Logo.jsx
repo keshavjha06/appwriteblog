@@ -1,9 +1,15 @@
-import React from 'react'
+import logo from "../assets/logo.jpg";
 
-function Logo({ width = '100px' }) {
+const Logo = ({ width = "70px", className = "" }) => {
   return (
-    <div>Logo</div>
-  )
-}
+    <img
+      src={logo}
+      alt="logo"
+      width={width}
+      className={`${className}`}
+      title="appwrite-blog"
+    ></img>
+  );
+};
 
-export default Logo
+export default Logo;

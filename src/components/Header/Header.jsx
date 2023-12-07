@@ -43,7 +43,9 @@ function Header() {
         <nav className='flex'>
           <div className='mr-4'>
             <Link to='/'>
-              <Logo width='70px' />
+              <Logo width='70px'
+                className="p-2 rounded hover:bg-gray-300 transition-colors duration-200 ease-in"
+              />
 
             </Link>
           </div>
